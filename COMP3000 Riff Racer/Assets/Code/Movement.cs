@@ -34,9 +34,6 @@ public class Movement : MonoBehaviour
         {
             transform.position += transform.TransformDirection(Vector3.left) * Time.deltaTime * movementSpeed;
         }
-        else if (Input.GetKey("s") && !Input.GetKey("w"))
-        {
-            transform.position -= transform.TransformDirection(Vector3.left) * Time.deltaTime * movementSpeed;
-        }
+      
     }
 }

@@ -18,7 +18,7 @@ public class UIAppear : MonoBehaviour
     }
     void onTriggerExit(Collider other)
     {
-        if (other.CompareTag("player"))
+        if (other.CompareTag("Player"))
         {
             customImage.enabled = false;
 
